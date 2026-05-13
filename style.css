@@ -1,1 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #f0fdf4);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
 
+#attendance {
+    background: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s ease;
+}
+
+#attendance:hover {
+    transform: translateY(-3px);
+}
+
+#attendance h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+    font-size: 28px;
+}
+
+.form-select,
+.form-control {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.form-select:focus,
+.form-control:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.3);
+}
+
+.btn {
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background: #16a34a;
+    color: white;
+}
+
+.btn-success:hover {
+    background: #15803d;
+    transform: scale(1.02);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+#output2 {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    background: #f8fafc;
+    border: 1px solid #dbeafe;
+    min-height: 120px;
+}
+
+/* Optional spacing helpers */
+.mb-2 {
+    margin-bottom: 15px;
+}
+
+.mt-3 {
+    margin-top: 20px;
+}
